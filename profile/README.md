@@ -1,4 +1,4 @@
-# 감성 대화 챗봇 프로젝트
+# 📚 감성 대화 챗봇 프로젝트
 
  이 프로젝트는 BERT&GPT 파인튜닝을 활용한 감성 대화 챗봇을 구현하는 것을 목표로 한다.
  
@@ -6,7 +6,7 @@
 
 <br>
 
-## 1. 프로젝트 구조
+## 🏗️ 프로젝트 구조
 
 * `fine-tuned-bert`
   - BERT 모델을 fine-tuning 하고 테스트하는 코드가 포함되어 있다. 실제 모델은 Hugging Face에 저장되어 있으며, 이 프로젝트를 실행하는 데 있어서 해당 repo는 clone할 필요가 없다. 모델은 backend 쪽 코드에서 자동으로 불러온다.
@@ -25,9 +25,9 @@
 
 <br>
 
-## 2. 설치 및 실행
+## 🏃 설치 및 실행
 
-### 2-1. nlp-model-server
+### 1. nlp-model-server
 1. repo clone
 ```shell
 git clone https://github.com/khucd-pringles/nlp-model-server.git
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-### 2-2. emotion-helper-web
+### 2. emotion-helper-web
 1. repo clone
 ```shell
 git clone https://github.com/khucd-pringles/emotion-helper-web.git
