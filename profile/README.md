@@ -40,7 +40,20 @@ git clone https://github.com/khucd-pringles/nlp-model-server.git
 cd nlp-model-server
 pip install -r requirements.txt
 ```
-3. 서버 실행
+3. OpenAI API KEY 입력
+```python
+# mykey.py
+
+# 여기에 openai api key 입력 후, 이 파일을 app.py에서 import (ex. import mykey)
+openai.api_key = ""
+```
+
+```python
+# app.py
+# import KEY
+import mykey
+```
+4. 서버 실행
 ```shell
 python app.py
 ```
